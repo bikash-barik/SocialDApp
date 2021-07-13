@@ -1,0 +1,124 @@
+.login {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f0f2f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .logoimg {
+  background-clip: content-box;
+  border: 2px solid transparent;
+  border-radius: 50%; 
+} */
+
+.loginLeft{
+ width: 50px;
+  padding: 80px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.loginLogo{
+  margin-top: 40px;
+}
+
+.Heading{
+  padding-bottom: 40px;
+  color: black;
+  font-size: x-large;
+}
+
+input[type=name]:focus {
+  border: 2px solid #08f740;
+  box-shadow: #08f740;
+}
+
+input[type=LastName]:focus {
+  border: 2px solid #08f740;
+  box-shadow: #08f740;
+}
+
+input[type=email]:focus {
+  border: 2px solid #08f740;
+  box-shadow: #08f740;
+}
+
+input[type=password]:focus {
+  border: 2px solid #08f740;
+  box-shadow: #08f740;
+}
+
+.btn .btn-success{
+  background-color: red;
+  justify-items: center;
+  justify-content: center;
+}
+
+span{
+  color: #08f740;
+}
+
+.SocialIcon{
+  display: inline;
+  display: flexbox;
+  justify-content: space-between;
+  padding: 40px 30px;
+}
+
+.SocialIcon img{
+  padding: 20px;
+}
+
+  /* a{display:flex;
+  align-items: center;
+  padding : 12px 24px;
+  svg , 
+  img {
+      width: 48px;
+      height: 48px;
+      background-clip: content-box;
+      border: 2px solid transparent;
+      border-radius: 50%;
+  }
+  span {
+      font-weight: 600;
+      font-height:16px;
+      line-height: 1.5px
+      margin-left: 5px;
+  } */
+  
+.loginWrapper {
+  /* background-color: linear-gradient(to left, #01BAB3 50%, #02BF2F 100%, #fff 40%); */
+  /* background-image: linear-gradient(to right,#01BAB3, #02BF2F,#fff); */
+  /* background-color: linear-gradient(#1775ee, #02BF2F); */
+  height: 100%;
+  width: 70%;
+  display: flex;
+}
+
+
+.loginLeft,
+.loginRight {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.loginRight{
+  margin: 20px;
+}
+.loginBox{
+    height: 270px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
